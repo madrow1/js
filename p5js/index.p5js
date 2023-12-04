@@ -1,0 +1,19 @@
+let data; 
+
+function preload() {
+    data = loadTable("gissdata.csv", "csv", "header");
+}
+
+function setup() {
+    createCanvas(400,400);
+    //console.log(data.getRowCount());
+    //console.log(data.getColumnCount())
+
+    let row =data.getRow(0);
+
+}
+
+function draw() {
+    background(220);
+}
+
